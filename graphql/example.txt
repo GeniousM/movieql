@@ -1,0 +1,16 @@
+ex usage of query
+
+type Query {
+    name: String!
+}
+
+type Query {
+    people: [Person]!
+    person(id: Int!): Person!
+}
+
+
+찾을 data: 자료형!
+으로 표현
+
+배열을 받아 올 때는 어떻게 받아오는 가? = 배열의 type 은?
